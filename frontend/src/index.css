@@ -1,0 +1,64 @@
+#root {
+  min-width: 100vw !important;
+  overflow-x: hidden !important;
+  min-height: 90vh !important;
+}
+body {
+  font-family: gothic !important;
+  min-width: 100vw !important;
+  overflow-x: hidden !important;
+  min-height: 90vh !important;
+}
+.body {
+  min-width: 100vw !important;
+  width: 100vw !important;
+  min-height: 90vh !important;
+  overflow-x: hidden !important;
+}
+
+.App {
+  width: 100% !important;
+  align-self: center;
+  min-height: 90vh !important;
+}
+
+@media (max-width: 508px) {
+  .body {
+    width: 100vw !important;
+    min-width: 100vw !important;
+  }
+  body {
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+p {
+  font-size: 22px !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.products-scroll {
+  overflow-y: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-circle {
+  border-radius: 50% !important;
+  background-color: red !important;
+  width: 20px !important;
+  height: 20px !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: -50px !important;
+  margin-left: 20px !important;
+}
